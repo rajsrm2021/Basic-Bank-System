@@ -14,7 +14,7 @@ function Transaction() {
             alert('Cannot transfer money to Same account')
             return;
         }
-      const response = await axios.patch("http://localhost:5000/transfer", {
+      const response = await axios.patch("https://server-jet-three.vercel.app/transfer", {
         sen_acc: sender,
         rec_acc: reciever,
         amt: amt,

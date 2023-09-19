@@ -6,7 +6,7 @@ function Customers() {
   const [users, setUsers] = useState([]);
 
   async function getUsersData() {
-    const response = await axios.get("http://localhost:5000/getusers");
+    const response = await axios.get("https://server-jet-three.vercel.app/getusers");
 
     if (response) {
       console.log(response.data);

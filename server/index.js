@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb://127.0.0.1:27017/account', { useNewUrlParser: true }).then(() => {
+mongoose.connect('mongodb+srv://raj:raj@cluster0.telvgtm.mongodb.net/one?retryWrites=true', { useNewUrlParser: true }).then(() => {
     console.log('Database Connected')
 }).catch((err) => {
     console.log(err)
