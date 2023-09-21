@@ -1,26 +1,33 @@
-import './All.css'
-import React from 'react'
+import "./All.css";
+import React from "react";
 
 const Middlepart = () => {
-    return (
-      <div className='middle'>
-        <div class="content container">
-            <h1>The Spark Bank</h1>
-            <p>
-                This website is the
-                outcome of a intern project, and does not
-                necessarily represent the views of any organisation or any other individuals referenced or
-                acknowledged within the website. Anyone may reproduce, distribute, adapt, translate the content on the website,
-                without explicit permission, provided that the content is accompanied by an acknowledgement that this Bank website 
-                is the source and that it is clearly indicated if changes were made to the original content.
-            </p>
-        </div>
-
-        <div>
-            <img src="https://media4.giphy.com/media/EFcct0wn6TBHAzKaSR/giphy.gif?cid=ecf05e47ytmpvc0c5xrs5m2s2zshmubbwzhal9sbzsm5ag5m&rid=giphy.gif&ct=g" alt="img" style={{marginLeft: '15px'}}/>
-        </div>
+  return (
+    <div className="middle">
+      <div class="content container">
+        <h1>The Ashi Bank</h1>
+        <p>
+          This website is the result of an internship project and does not
+          necessarily reflect the opinions or views of any organization or
+          individuals mentioned or acknowledged on the website. The content on
+          this website may be reproduced, distributed, adapted, or translated
+          without explicit permission, as long as the following conditions are
+          met:
+          <br></br><br></br>
+          1.The content is accompanied by an acknowledgment that this website is the source.<br></br>
+          2.It is clearly indicated if any changes have been made to the original content.
+        </p>
       </div>
-    )
-  }
-  
-  export default Middlepart
+
+      <div>
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="img"
+          style={{ marginLeft: "15px" }}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Middlepart;

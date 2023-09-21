@@ -4,7 +4,7 @@
     align-items: center;
     font-size: 15px;
     letter-spacing: 5px;
-    background-color: #1abc9c;
+    background-color: black;
     color: #0E8388;
     
 }
@@ -29,7 +29,7 @@
 	margin: 2px -1px;
 	width: 100%;
 	height: 120px;
-	background-color: #1abc9c;
+	background-color: black;
     margin-bottom: 0;
 }
 .footer p {
@@ -58,7 +58,7 @@
 }
 .container h1{
     font-size: 55px;
-    color: #1abc9c;
+    color: black;
     font-weight: bold;
 }
 
@@ -82,5 +82,3 @@ img{
 .navul li a:hover{
     font-size: 130%;
 }
-
-
